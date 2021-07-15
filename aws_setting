@@ -1,0 +1,35 @@
+amazon ec2
+
+AWS 관리 콘솔
+https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2
+
+- 지역을서울로 변경
+
+
+ES2 툴 선택
+
+이후 운영체제 선택하는 화면에서
+우리는 우분투 를 선택합시다.
+
+
+이후 6. 보안그룹구성 
+http와
+https를 선택하세요 
+
+ssh 22번 포트는 아이피를 제한적으로 두는게 좋지만 아직은괜찮아요.
+
+이후 검토및 시작 버튼누름
+
+새키페어 pem 새로받고 비주얼스튜디오코드에 가져온다
+
+
+sudo apt-get update
+sudo apt-get install -y build-essetial
+sudo apt-get instlal curl
+curl -sL http://deb.nodesurce.com/setup_18.x | sudo -E bash --
+sudo apt-get install -y node.js 
+
+
+
+
+
