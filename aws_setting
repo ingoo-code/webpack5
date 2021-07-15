@@ -30,6 +30,7 @@ curl -sL http://deb.nodesurce.com/setup_18.x | sudo -E bash --
 sudo apt-get install -y node.js 
 
 
-
+CORS 설정
+https://firework-ham.tistory.com/70
 
 

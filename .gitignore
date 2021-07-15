@@ -2,3 +2,5 @@
 ingoo-site.pem
 .env
 ingoo-site-aws.pem
+ingoo-mac.pem
+/dist
