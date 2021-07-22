@@ -20,11 +20,11 @@ const CommentList = () => {
     const Item = list.map( (v,k)=>{
         return (
             <CommentItem 
-                key={k}
+                key={v.id}
                 userid={v.userid}
                 content={v.content}
                 date={v.date}
-                index={k}
+                index={v.id}
             />
         )
     } )

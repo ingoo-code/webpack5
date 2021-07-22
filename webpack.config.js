@@ -2,8 +2,10 @@ const path = require('path')
 const RefreshwebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack')
-const mode = 'production'
-const devtool = 'hidden-source-map'
+// const mode = 'production'
+// const devtool = 'hidden-source-map'
+const mode = 'development'
+const devtool = 'eval'
 const isDevelopment = mode === 'production';
 const refresh = isDevelopment ? [] : ['react-refresh/babel']
 

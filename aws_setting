@@ -98,7 +98,7 @@ npm install pm2
 
 package.json 파일에서 
 아래 코드 삽입
-"start": "pm2 start npm --name 'app.js' "
+"start": "pm2 start npm --name 'server.js' "
 
 실행은
 
@@ -148,7 +148,7 @@ server {
 방금 생성한 설정파일을 sites-enabled 폴더로 symlink해야 해당서비스가 활성화 되며 실제 서비스가 가능한 상태가 된다. ( 윈도우기준 바로가기 기능)
 
 sudo ln -s /etc/nginx/sites-available/myapp.conf /etc/nginx/sites-enabled/myapp.conf
-sudo nginx -t v 하여 구문체크하기
+sudo nginx -t  하여 구문체크하기
 
 nginx 실행방법
 sudo systemctl stop nginx
